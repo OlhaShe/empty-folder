@@ -1,0 +1,140 @@
+/* h1 {
+  color: #1ab2a8;
+  display: block;
+  margin: 50px auto;
+  text-align: center;
+  font-family: "Libre Franklin", sans-serif;
+} */
+
+form {
+  display: block;
+  text-align: center;
+  margin-top: 5%;
+}
+
+body {
+  font-family: "Libre Franklin", sans-serif;
+}
+.search-field {
+  width: 55%;
+  border: 2px solid #cfd2cf;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.search-button,
+.current-location-button {
+  color: #006ec5;
+  border: 1px solid #006ec5;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: aliceblue;
+}
+
+.search-button:hover,
+.current-location-button:hover {
+  border: 1px solid #006ec5;
+  color: #006ec5;
+  padding: 10px;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  cursor: pointer;
+  transition: 200ms ease-in-out;
+}
+
+.today-day {
+  display: block;
+  margin: 30px 20% 30px 20%;
+  text-align: center;
+  border: 2px solid #cfd2cf;
+  padding: 2% 1%;
+  border-radius: 10px;
+  width: 60%;
+}
+
+.col-today-Name,
+.col-today-date {
+  text-align: left;
+  color: #006ec5;
+  font-size: 23px;
+}
+
+.col-today-date {
+  font-size: 17px;
+  padding-left: 4%;
+}
+
+.col-today-time {
+  text-align: left;
+  padding-left: 4%;
+  color: #006ec5;
+}
+
+.col-today-humidity {
+  padding-top: 1%;
+  color: #73777b;
+}
+
+.col-today-temperature {
+  text-align: right;
+  color: #ab47bb;
+  font-size: 30px;
+}
+
+/* .wish-for-the-day {
+  color: #1ab2a8;
+  font-size: 18px;
+  display: block;
+  text-align: center;
+  font-style: italic;
+} */
+
+.week-wheather {
+  border: 2px solid #cfd2cf;
+  display: block;
+  margin: 30px 20% 30px 20%;
+  border-radius: 10px;
+  width: 60%;
+  padding: 1%;
+}
+
+.col-8-dateof-week,
+.col-8-dayof-week {
+  text-align: left;
+  padding: none;
+}
+
+.col-4-temperature-ofweek {
+  text-align: right;
+}
+
+.week-wheather-oneday {
+  padding: 1%;
+  margin: 2%;
+  margin-bottom: 8%;
+}
+
+.col-8-dayof-week {
+  color: #006ec5;
+  font-size: 22px;
+  font-style: bold;
+}
+
+.col-8-dateof-week {
+  color: #006ec5;
+  font-size: 17px;
+  font-style: italic;
+}
+
+.col-4-temperature-ofweek {
+  color: #ab47bb;
+  font-size: 23px;
+}
+
+#selected-city {
+  text-align: center;
+  color: #ab47bb;
+  font-size: 35px;
+  font-weight: bold;
+  padding-bottom: 1%;
+}
