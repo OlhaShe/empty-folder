@@ -15,6 +15,11 @@ form {
 body {
   font-family: "Libre Franklin", sans-serif;
 }
+
+.open-code-by {
+  display: block;
+  text-align: center;
+}
 .search-field {
   width: 55%;
   border: 2px solid #cfd2cf;
